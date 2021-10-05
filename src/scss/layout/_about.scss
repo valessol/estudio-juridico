@@ -1,0 +1,16 @@
+.about {
+  margin: 2rem auto;
+  text-align: center;
+  @include tablet {
+    .text {
+      padding: 0 3rem;
+      margin-bottom: 3rem;
+    }
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+  
+

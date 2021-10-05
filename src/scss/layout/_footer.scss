@@ -1,0 +1,19 @@
+footer {
+  background-color: $primary-light-color;
+  padding: 1rem;
+  text-align: center;
+  p {
+    color: $light-color;
+    margin: 0;
+    &:last-child {
+      font-size: 1.8rem;
+    }
+    a {
+      color: $light-color;
+      font-size: 2rem;
+      &:hover {
+        color: $primary-dark-color;
+      }
+    }
+  }
+}

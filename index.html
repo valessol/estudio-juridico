@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Jurídico</title>
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>Estudio de Abogados</h1>
+            <nav class="navbar">
+                <a href="#lineup">Sobre nosotros</a>
+                <a href="#galeria">Servicios</a>
+                <a href="#boletos">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container hero-content">
+            <img src="./build/img/justice.svg" alt="justicia">
+            <h2>Asesoramiento Legal Integral</h2>
+        </div>
+    </section>
+    <section class="container about">
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto modi nostrum obcaecati quo cumque. Saepe deserunt, ad, ullam molestiae repudiandae, corporis reprehenderit ratione nam vel odio pariatur natus fugit similique!</p>
+    </section>
+    <main class="servicios" id="lineup">
+        <h2>Servicios</h2>
+        <div class="container servicios-layout">
+            <div class="servicios-content">
+                <i class="bi bi-briefcase"></i>
+                <h3>Laboral</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptas placeat nisi culpa ab maiores quisquam, cumque labore? Laborum velit nisi reiciendis inventore accusantium asperiores dicta ad officiis maxime repellat.</p>
+            </div>
+            <div class="servicios-content">
+                <i class="bi bi-people"></i>
+                <h3>Familia</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptas placeat nisi culpa ab maiores quisquam, cumque labore? Laborum velit nisi reiciendis inventore accusantium asperiores dicta ad officiis maxime repellat.</p>
+            </div>
+            <div class="servicios-content">
+                <i class="bi bi-fullscreen-exit"></i>
+                <h3>Accidentes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptas placeat nisi culpa ab maiores quisquam, cumque labore? Laborum velit nisi reiciendis inventore accusantium asperiores dicta ad officiis maxime repellat.</p>
+            </div>
+        </div>
+        
+    </main>
+    <section class="container">
+        <h2>Contacto</h2>
+        <form action="">
+            <div class="field">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Tu nombre">
+            </div>
+            <div class="field">
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" placeholder="Tu email">
+            </div>
+            <div class="field">
+                <label for="motivo">Motivo</label>
+                <select name="motivo" id="motivo">
+                    <option value="no-selection"></option>
+                    <option value="laboral">Laboral</option>
+                    <option value="familia">Familia</option>
+                    <option value="accidentes">Accidentes</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+    <footer>
+        <p>Estudio Juridico | Desarrollo del sitio web: Valeria Silveira</p>
+        <p><a href="https://www.valeriasilveira.com.ar/">valeriasilveira.com.ar</a> | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./build/js/bundle.min.js"></script>
+</body>
+</html>
